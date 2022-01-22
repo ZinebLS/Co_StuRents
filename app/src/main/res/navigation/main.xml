@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    app:startDestination="@id/main_home">
+    <fragment
+        android:id="@+id/main_home"
+        android:name="com.example.yarbi.HomeFragment"
+        android:label="home"
+        tools:layout="@layout/fragment_home" />
+
+    <activity
+        android:id="@+id/menu_profile"
+        android:name="com.example.yarbi.ProfileActivity"
+        android:label="fragment_profile"
+        tools:layout="@layout/activity_profile" />
+
+    <activity
+        android:id="@+id/menu_create"
+        android:name="com.example.yarbi.CreateActivity"
+        android:label="fragment_profile"
+        tools:layout="@layout/activity_create" />
+
+    <activity
+        android:id="@+id/menu_search"
+        android:name="com.example.yarbi.SearchActivity"
+        android:label="fragment_profile"
+        tools:layout="@layout/activity_search" />
+    <activity
+        android:id="@+id/menu_favorite"
+        android:name="com.example.yarbi.FavoriteActivity"
+        android:label="activity_favorite"
+        tools:layout="@layout/activity_favorite" />
+    <activity
+        android:id="@+id/menu_ads"
+        android:name="com.example.yarbi.MyAdsActivity"
+        android:label="activity_my_ads"
+        tools:layout="@layout/activity_my_ads" />
+
+
+</navigation>

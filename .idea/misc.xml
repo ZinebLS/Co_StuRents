@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/zineb/AndroidStudioProjects/yarbi/app/src/main/res/drawable/button_bg.xml" value="0.3098958333333333" />
+        <entry key="..\:/Users/zineb/AndroidStudioProjects/yarbi/app/src/main/res/drawable/edit_text_bg.xml" value="0.3098958333333333" />
+        <entry key="..\:/Users/zineb/AndroidStudioProjects/yarbi/app/src/main/res/drawable/favorite.xml" value="0.23981481481481481" />
+        <entry key="..\:/Users/zineb/AndroidStudioProjects/yarbi/app/src/main/res/drawable/favorite_in.xml" value="0.3098958333333333" />
+        <entry key="..\:/Users/zineb/AndroidStudioProjects/yarbi/app/src/main/res/drawable/home_24.xml" value="0.3098958333333333" />
+        <entry key="..\:/Users/zineb/AndroidStudioProjects/yarbi/app/src/main/res/drawable/ic_baseline_ads_click_24.xml" value="0.3098958333333333" />
+        <entry key="..\:/Users/zineb/AndroidStudioProjects/yarbi/app/src/main/res/drawable/ic_baseline_delete_forever_24.xml" value="0.3098958333333333" />
+        <entry key="..\:/Users/zineb/AndroidStudioProjects/yarbi/app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.30277777777777776" />
+        <entry key="..\:/Users/zineb/AndroidStudioProjects/yarbi/app/src/main/res/drawable/ic_baseline_location_on_24.xml" value="0.30277777777777776" />
+        <entry key="..\:/Users/zineb/AndroidStudioProjects/yarbi/app/src/main/res/drawable/ic_baseline_menu_24.xml" value="0.3098958333333333" />
+        <entry key="..\:/Users/zineb/AndroidStudioProjects/yarbi/app/src/main/res/drawable/ic_baseline_menu_book_24.xml" value="0.3098958333333333" />
+        <entry key="..\:/Users/zineb/AndroidStudioProjects/yarbi/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.3098958333333333" />
+        <entry key="..\:/Users/zineb/AndroidStudioProjects/yarbi/app/src/main/res/drawable/ic_baseline_settings_24.xml" value="0.3098958333333333" />
+        <entry key="..\:/Users/zineb/AndroidStudioProjects/yarbi/app/src/main/res/drawable/ic_baseline_system_update_alt_24.xml" value="0.3098958333333333" />
+        <entry key="..\:/Users/zineb/AndroidStudioProjects/yarbi/app/src/main/res/drawable/menu_create.xml" value="0.3098958333333333" />
+        <entry key="..\:/Users/zineb/AndroidStudioProjects/yarbi/app/src/main/res/drawable/menu_favorite.xml" value="0.3098958333333333" />
+        <entry key="..\:/Users/zineb/AndroidStudioProjects/yarbi/app/src/main/res/drawable/menu_home.xml" value="0.3098958333333333" />
+        <entry key="..\:/Users/zineb/AndroidStudioProjects/yarbi/app/src/main/res/drawable/menu_person.xml" value="0.30512820512820515" />
+        <entry key="..\:/Users/zineb/AndroidStudioProjects/yarbi/app/src/main/res/drawable/menu_power_settings.xml" value="0.30512820512820515" />
+        <entry key="..\:/Users/zineb/AndroidStudioProjects/yarbi/app/src/main/res/drawable/menu_searched_for.xml" value="0.3098958333333333" />
+        <entry key="..\:/Users/zineb/AndroidStudioProjects/yarbi/app/src/main/res/drawable/search_24.xml" value="0.3098958333333333" />
+        <entry key="..\:/Users/zineb/AndroidStudioProjects/yarbi/app/src/main/res/drawable/side_nav_bar.xml" value="0.3098958333333333" />
+        <entry key="..\:/Users/zineb/AndroidStudioProjects/yarbi/app/src/main/res/drawable/vie_bg.xml" value="0.3098958333333333" />
+        <entry key="..\:/Users/zineb/AndroidStudioProjects/yarbi/app/src/main/res/layout/activity_create.xml" value="0.33" />
+        <entry key="..\:/Users/zineb/AndroidStudioProjects/yarbi/app/src/main/res/layout/activity_detail_product.xml" value="0.25" />
+        <entry key="..\:/Users/zineb/AndroidStudioProjects/yarbi/app/src/main/res/layout/activity_favorite.xml" value="0.25" />
+        <entry key="..\:/Users/zineb/AndroidStudioProjects/yarbi/app/src/main/res/layout/activity_forget_password.xml" value="0.29375" />
+        <entry key="..\:/Users/zineb/AndroidStudioProjects/yarbi/app/src/main/res/layout/activity_home.xml" value="0.2" />
+        <entry key="..\:/Users/zineb/AndroidStudioProjects/yarbi/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Users/zineb/AndroidStudioProjects/yarbi/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/zineb/AndroidStudioProjects/yarbi/app/src/main/res/layout/activity_my_ads.xml" value="0.25" />
+        <entry key="..\:/Users/zineb/AndroidStudioProjects/yarbi/app/src/main/res/layout/activity_profile.xml" value="0.25" />
+        <entry key="..\:/Users/zineb/AndroidStudioProjects/yarbi/app/src/main/res/layout/activity_search.xml" value="0.33" />
+        <entry key="..\:/Users/zineb/AndroidStudioProjects/yarbi/app/src/main/res/layout/activity_signup.xml" value="0.25" />
+        <entry key="..\:/Users/zineb/AndroidStudioProjects/yarbi/app/src/main/res/layout/activity_wish_list.xml" value="0.29375" />
+        <entry key="..\:/Users/zineb/AndroidStudioProjects/yarbi/app/src/main/res/layout/fragment_home.xml" value="0.33" />
+        <entry key="..\:/Users/zineb/AndroidStudioProjects/yarbi/app/src/main/res/layout/fragment_wish_list.xml" value="0.29375" />
+        <entry key="..\:/Users/zineb/AndroidStudioProjects/yarbi/app/src/main/res/layout/layout_navigation_header.xml" value="0.25" />
+        <entry key="..\:/Users/zineb/AndroidStudioProjects/yarbi/app/src/main/res/menu/navigation_menu.xml" value="0.22" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".SearchActivity">
+
+      <ImageView
+          android:id="@+id/search_back"
+          android:layout_width="50dp"
+          android:layout_height="40dp"
+          android:layout_alignParentLeft="true"
+          android:layout_alignParentTop="true"
+          android:layout_marginStart="9dp"
+          android:layout_marginLeft="9dp"
+          android:layout_marginTop="32dp"
+          android:padding="8dp"
+          android:src="@drawable/back" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="-45dp"
+        android:layout_marginEnd="31dp"
+        android:background="@drawable/edit_text_bg"
+        android:drawableStart="@drawable/ic_baseline_search_24"
+        android:drawableLeft="@drawable/ic_baseline_location_on_24"
+        android:textColor="@color/black"
+        android:drawablePadding="8dp"
+        android:hint="Search the city"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textColorHint="#556B2F" />
+
+    <TextView
+        android:layout_width="236dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="99dp"
+        android:layout_marginBottom="580dp"
+        android:fontFamily="@font/italic"
+        android:text="Filter your search"
+        android:textColor="@color/teal_200"
+        android:textSize="26dp"
+        android:textStyle="italic|bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="-550dp"
+        android:layout_marginBottom="0dp"
+        android:fontFamily="@font/italic"
+        android:gravity="center_horizontal"
+        android:text="Types"
+        android:textColor="@color/black"
+        android:textSize="21dp"
+        android:textStyle="italic|bold"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="86dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="69dp"
+            android:background="@drawable/edit_text_bg"
+            android:text="rental"
+            android:textSize="12dp" />
+
+        <Button
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="22dp"
+            android:background="@drawable/edit_text_bg"
+            android:text="roommate"
+            android:textSize="12dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="86dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="16dp"
+            android:background="@drawable/edit_text_bg"
+            android:text="House"
+            android:textSize="12dp" />
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="22dp"
+            android:background="@drawable/edit_text_bg"
+            android:text="Room"
+            android:textSize="12dp" />
+
+        <Button
+            android:layout_width="85dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="12dp"
+            android:background="@drawable/edit_text_bg"
+            android:src="@drawable/img_3"
+            android:text="Studio"
+            android:textSize="12dp" />
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="12dp"
+            android:background="@drawable/edit_text_bg"
+            android:src="@drawable/img_3"
+            android:text="Flat"
+            android:textSize="12dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="86dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="22dp"
+            android:background="@drawable/edit_text_bg"
+            android:text="Student"
+            android:textSize="12dp" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="22dp"
+            android:background="@drawable/edit_text_bg"
+            android:text="Family"
+            android:textSize="12dp" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="22dp"
+            android:background="@drawable/edit_text_bg"
+            android:src="@drawable/img_3"
+            android:text="Young active"
+            android:textSize="12dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="86dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="22dp"
+            android:background="@drawable/edit_text_bg"
+            android:text="male"
+            android:textSize="12dp" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="22dp"
+            android:background="@drawable/edit_text_bg"
+            android:text="female"
+            android:textSize="12dp" />
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="22dp"
+            android:background="@drawable/edit_text_bg"
+            android:src="@drawable/img_3"
+            android:text="no preference"
+            android:textSize="12dp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

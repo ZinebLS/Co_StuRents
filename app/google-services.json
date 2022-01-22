@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "904347057264",
+    "project_id": "test-596c6",
+    "storage_bucket": "test-596c6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:904347057264:android:afc8bed05c72a4d64308b5",
+        "android_client_info": {
+          "package_name": "com.example.yarbi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "904347057264-cbv3os4hovuu9i3qdfei84o5j0hhdv2c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTU3yN3p-jRFNThjDKaHNtNB0MixPhoV8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "904347057264-cbv3os4hovuu9i3qdfei84o5j0hhdv2c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

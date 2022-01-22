@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/main_home"
+        android:icon="@drawable/menu_home"
+        android:title="Home"/>
+    <item
+        android:id="@+id/menu_search"
+        android:icon="@drawable/menu_searched_for"
+        android:title="search" />
+    <item
+        android:id="@+id/menu_create"
+        android:icon="@drawable/menu_create"
+        android:title="Create ad"/>
+    <item
+        android:id="@+id/menu_ads"
+        android:icon="@drawable/ic_baseline_ads_click_24"
+        android:title="My ads"/>
+    <item
+        android:id="@+id/menu_favorite"
+        android:icon="@drawable/menu_favorite"
+        android:title="WishList"/>
+    <item
+        android:id="@+id/menu_profile"
+        android:icon="@drawable/menu_person"
+        android:title="Profile"/>
+    <item
+        android:id="@+id/menu_logout"
+        android:icon="@drawable/menu_power_settings"
+        android:title="logout"/>
+
+    <item
+        android:id="@+id/menu_about"
+        android:icon="@drawable/ic_baseline_menu_book_24"
+        android:title="About Us"/>
+
+    <item
+        android:id="@+id/menu_setting"
+        android:icon="@drawable/ic_baseline_settings_24"
+        android:title="Setting"/>
+
+</menu>
