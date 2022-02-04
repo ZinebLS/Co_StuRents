@@ -37,6 +37,16 @@
         android:name="com.example.yarbi.MyAdsActivity"
         android:label="activity_my_ads"
         tools:layout="@layout/activity_my_ads" />
+    <activity
+        android:id="@+id/menu_about"
+        android:name="com.example.yarbi.AboutUsActivity"
+        android:label="activity_about_us"
+        tools:layout="@layout/activity_about_us" />
+    <activity
+        android:id="@+id/menu_setting"
+        android:name="com.example.yarbi.SettingActivity"
+        android:label="activity_setting"
+        tools:layout="@layout/activity_setting" />
 
 
 </navigation>

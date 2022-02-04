@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Yarbi">
         <activity
+            android:name=".SettingActivity"
+            android:exported="true" />
+        <activity
+            android:name=".AboutUsActivity"
+            android:exported="true" />
+        <activity
             android:name=".MyAdsActivity"
             android:exported="true" />
         <activity

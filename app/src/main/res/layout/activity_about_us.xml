@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/focus"
+        android:id="@+id/menu_about"
+        tools:context=".AboutUsActivity">
+
+    <RelativeLayout
+        android:layout_width="408dp"
+        android:layout_height="728dp"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/backBtnn"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="7dp"
+            android:padding="8dp"
+            android:src="@drawable/back" />
+
+
+        <TextView
+            android:id="@+id/text_clair"
+            android:layout_width="185dp"
+            android:layout_height="80dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="85dp"
+            android:layout_marginEnd="111dp"
+            android:fontFamily="@font/licorice"
+            android:text="About Us"
+            android:textColor="#556B2F"
+            android:textSize="40sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.553"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.149"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="235dp"
+            android:layout_below="@+id/text_clair"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="110dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="@font/italic"
+            android:text="Finding the perfect home and roommate for the new school year is not always easy. If you are already lost and you don't have enough time, you are in the right place
+CoStuRents can be your best ally in your search for the perfect property. It allows you to filter your search according to different criteria and to get in direct contact with the owners."
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+
+
+    </RelativeLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>

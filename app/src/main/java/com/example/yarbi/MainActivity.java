@@ -9,11 +9,12 @@ import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.ImageView;
+import android.widget.ProgressBar;
 
 
 public class MainActivity extends AppCompatActivity {
-    ImageView flesh;
-
+    //ImageView flesh;
+    ProgressBar progressBar;
 
 
     @Override
@@ -23,17 +24,23 @@ public class MainActivity extends AppCompatActivity {
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
         getSupportActionBar().hide();
-
         setContentView(R.layout.activity_main);
-        flesh=findViewById(R.id.skip);
-        flesh.setOnClickListener(new View.OnClickListener() {
+        progressBar=findViewById(R.id.progressBar);
+        progressBar.setVisibility(View.VISIBLE);
+        Thread thread=new Thread(){
             @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,LoginActivity.class);
-                startActivity(intent);
+            public void run() {
+                try {
+                    sleep(2000);
+                    Intent intent=new Intent(MainActivity.this, LoginActivity.class);
+                    startActivity(intent);
+                    finish();
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+
             }
-        });
-
-
+        };
+        thread.start();
     }
 }
